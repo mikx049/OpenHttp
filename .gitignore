@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+
+# OpenHttp runtime
+.server.pid
+
+# output
+out/
+dist/
+*.tgz
+
+# code coverage
+coverage/
+*.lcov
+
+# logs
+logs/
+*.log
+*.log.*
+*report.[0-9]*.[0-9]*.[0-9]*.[0-9]_*.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# Finder (macOS)
+.DS_Store

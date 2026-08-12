@@ -1,0 +1,17 @@
+{
+  "name": "openhttp",
+  "version": "0.1.0",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "neo-blessed": "^0.2.0"
+  }
+}
