@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "module": "index.ts",
   "type": "module",
-  "private": true,
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "bun run index.ts",
+    "dev": "bun --watch index.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "bun run typecheck"
   },
   "devDependencies": {
     "@types/bun": "latest",

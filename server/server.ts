@@ -1,9 +1,11 @@
-const server = Bun.serve({
-    port: 3000,
+import sererConfig from "../.config/server.yml";
 
-    fetch(req) {
-        return new Response("MyApp Server OK");
-    },
+const server = Bun.serve({
+  port: sererConfig.port,
+
+  fetch(req) {
+    return new Response("OpenHttp Server OK");
+  },
 });
 
 console.log(`Server running at ${server.url}`);
